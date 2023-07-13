@@ -5,6 +5,8 @@
 
 body {
   margin: 0;
+  min-height: 1000px;
+  /* min-width: 500px; */
 }
 
 .header {
@@ -21,6 +23,13 @@ body {
   display: flex;
   gap: 15px;
   font-size: 15px;
+}
+
+.list li a {
+  text-decoration: none;
+  color: inherit;
+  pointer-events: none;
+  cursor: default;
 }
 
 .title-header {
