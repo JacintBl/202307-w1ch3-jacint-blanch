@@ -58,15 +58,16 @@ body {
   display: flex;
   flex-direction: column;
   border: none;
-  gap: 7px;
+  gap: 10px;
+  margin-top: 20px;
 }
 
 .form-add-button {
   border: none;
   background-color: rgb(0, 128, 122);
   color: white;
-  font-weight: 300;
-  font-size: 20px;
+  font-weight: 400;
+  font-size: 19px;
   width: 80px;
 }
 
@@ -76,13 +77,15 @@ fieldset {
   padding: 0;
 }
 
-.form-name .form-price {
-  width: 20px;
+fieldset input {
+  margin-bottom: 7px;
+  width: 130px;
 }
 
 legend {
   padding: 0;
   font-size: 17px;
+  margin-bottom: 7px;
 }
 
 main {
