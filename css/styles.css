@@ -89,6 +89,7 @@ fieldset {
 fieldset input {
   margin-bottom: 7px;
   width: 130px;
+  padding: 8px;
 }
 
 legend {
