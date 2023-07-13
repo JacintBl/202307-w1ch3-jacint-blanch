@@ -27,13 +27,14 @@
   </section>
   <main>
     <h2>Añadir artículo</h2>
-    <form class="name-price">
-      <label for="name">Nombre:</label>
-      <input type="text" required>
-      <label for="price">Precio:</label>
-      <input type="text" required>$
-      <button type="submit">Submit</button>
-
+    <form class="form">
+      <fieldset>
+        <legend>Nombre:</legend>
+        <input type="text" class="form-name" required>
+        <legend>Precio:</legend>
+        <input type="text" class="form-price" required> $
+      </fieldset>
+      <button type="submit" class="form-add-button">Añadir</button>
     </form>
   </main>
 </body>
