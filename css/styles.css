@@ -26,3 +26,20 @@ body {
 .title-header {
   font-size: 20px;
 }
+
+.buy-info {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(6, 78, 36);
+  padding: 18px;
+  align-items: center;
+}
+
+.button-delete {
+  height: 40px;
+}
+
+h2 {
+  color: white;
+  font-size: 17px;
+}
